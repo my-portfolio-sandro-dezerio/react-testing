@@ -8,7 +8,7 @@ export type DisplayValuesProps = {
 	passwordWatch: string;
 }
 
-const DisplayValues: React.FC<DisplayValuesProps> = ({ isDirty, isValid, userNameWatch, passwordWatch}) => {
+export const DisplayValues: React.FC<DisplayValuesProps> = ({ isDirty, isValid, userNameWatch, passwordWatch}) => {
 	return (
 		<Box color="grey.600" mt="10px">
 			{isDirty && isValid && (
