@@ -1,5 +1,14 @@
 # React Js - Typescript - Testing
 
-https://www.youtube.com/watch?v=oUn1J1WHo74&t=249s&ab_channel=GentlemanProgramming
+This is a small project, login form, to start using React JS with typescript for testing purpouse. It only has a basic form to type username and password.
 
-minuto 11:57
+If you want to run tests copy the following command:
+
+```bash
+npm / yarn / pnpm run test
+```
+
+Libraries used to test:
+
+- [Jest](https://jestjs.io/)
+- [Testing Library for React](https://testing-library.com/docs/react-testing-library/intro)
